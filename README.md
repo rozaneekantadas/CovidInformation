@@ -12,3 +12,18 @@ This is an android apps. I learned how to retrieve data from server using RESTfu
 - <a href="https://developer.android.com/studio?hl=es">Android Studio (XML+Java)</a>
 - <a href="https://developer.android.com/jetpack/androidx/releases/cardview">Card View</a>
 - <a href="https://github.com/hbb20/CountryCodePickerProject">Country Code Picker Library</a>
+- <a href="square.github.io/retrofit/">Retrofit</a>
+- <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest">POSTMAN API</a>
+
+# Screen Shots
+
+<img height='320' weight='240' src="page1.png"/>  <img height='320' weight='240' src="page2.png"/>  <img height='320' weight='240' src="page3.png"/>
+
+
+<img height='320' weight='240' src="page4.png"/>  <img height='320' weight='240' src="page5.png"/>  <img height='320' weight='240' src="page6.png"/>
+
+
+<img height='320' weight='240' src="page7.png"/>  <img height='320' weight='240' src="page8.png"/>  <img height='320' weight='240' src="page9.png"/>
+
+
+<img height='320' weight='240' src="page10.png"/>
