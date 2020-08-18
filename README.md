@@ -17,13 +17,20 @@ This is an android apps. I learned how to retrieve data from server using RESTfu
 
 # Screen Shots
 
-<img height='320' weight='240' src="page1.png"/>  <img height='320' weight='240' src="page2.png"/>  <img height='320' weight='240' src="page3.png"/>
+<img height='320' weight='240' src="page1.png"/>   <img height='320' weight='240' src="page2.png"/>
 
 
-<img height='320' weight='240' src="page4.png"/>  <img height='320' weight='240' src="page5.png"/>  <img height='320' weight='240' src="page6.png"/>
+<img height='320' weight='240' src="page3.png"/>   <img height='320' weight='240' src="page4.png"/>
 
 
-<img height='320' weight='240' src="page7.png"/>  <img height='320' weight='240' src="page8.png"/>  <img height='320' weight='240' src="page9.png"/>
+<img height='320' weight='240' src="page5.png"/>   <img height='320' weight='240' src="page6.png"/>
 
 
-<img height='320' weight='240' src="page10.png"/>
+<img height='320' weight='240' src="page7.png"/>   <img height='320' weight='240' src="page8.png"/>
+
+
+<img height='320' weight='240' src="page9.png"/>   <img height='320' weight='240' src="page10.png"/>
+
+# Download Link
+
+- Link: https://drive.google.com/file/d/1ny0SeMRT2PLzGWjsvg6ma2MqX34N2Iqc/view?usp=sharing
