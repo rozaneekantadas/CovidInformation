@@ -10,7 +10,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.Serializable;
+import java.text.NumberFormat;
 import java.util.List;
+import java.util.Locale;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     Integer TotalAffected, TotalDeath, TotalRecovered, TodayAffected, TodayDeath, TodayRecovered;
     boolean status = false;
     Button worldData;
+    NumberFormat numberFormat = NumberFormat.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
                 status = false;
 
-                affected.setText(String.valueOf(bdTotalAffected));
-                death.setText(String.valueOf(bdTotalDeath));
-                recovered.setText(String.valueOf(bdTotalRecovered));
+                affected.setText(numberFormat.format(bdTotalAffected));
+                death.setText(numberFormat.format(bdTotalDeath));
+                recovered.setText(numberFormat.format(bdTotalRecovered));
             }
         });
 
@@ -73,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
                 todayBtn.setTextColor(getColor(R.color.whitelight));
                 status = true;
 
-                affected.setText(String.valueOf(TotalAffected));
-                death.setText(String.valueOf(TotalDeath));
-                recovered.setText(String.valueOf(TotalRecovered));
+                affected.setText(numberFormat.format(TotalAffected));
+                death.setText(numberFormat.format(TotalDeath));
+                recovered.setText(numberFormat.format(TotalRecovered));
             }
         });
 
@@ -86,13 +89,13 @@ public class MainActivity extends AppCompatActivity {
                 totalBtn.setTextColor(getColor(R.color.whitelight));
 
                 if(status){
-                    affected.setText(String.valueOf(TodayAffected));
-                    death.setText(String.valueOf(TodayDeath));
-                    recovered.setText(String.valueOf(TodayRecovered));
+                    affected.setText(numberFormat.format(TodayAffected));
+                    death.setText(numberFormat.format(TodayDeath));
+                    recovered.setText(numberFormat.format(TodayRecovered));
                 }else {
-                    affected.setText(String.valueOf(bdTodayAffected));
-                    death.setText(String.valueOf(bdTodayDeath));
-                    recovered.setText(String.valueOf(bdTodayRecovered));
+                    affected.setText(numberFormat.format(bdTodayAffected));
+                    death.setText(numberFormat.format(bdTodayDeath));
+                    recovered.setText(numberFormat.format(bdTodayRecovered));
                 }
             }
         });
@@ -104,13 +107,13 @@ public class MainActivity extends AppCompatActivity {
                 totalBtn.setTextColor(getColor(R.color.white));
 
                 if(status){
-                    affected.setText(String.valueOf(TotalAffected));
-                    death.setText(String.valueOf(TotalDeath));
-                    recovered.setText(String.valueOf(TotalRecovered));
+                    affected.setText(numberFormat.format(TotalAffected));
+                    death.setText(numberFormat.format(TotalDeath));
+                    recovered.setText(numberFormat.format(TotalRecovered));
                 }else {
-                    affected.setText(String.valueOf(bdTotalAffected));
-                    death.setText(String.valueOf(bdTotalDeath));
-                    recovered.setText(String.valueOf(bdTotalRecovered));
+                    affected.setText(numberFormat.format(bdTotalAffected));
+                    death.setText(numberFormat.format(bdTotalDeath));
+                    recovered.setText(numberFormat.format(bdTotalRecovered));
                 }
             }
         });
@@ -156,9 +159,9 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-                affected.setText(String.valueOf(bdTotalAffected));
-                death.setText(String.valueOf(bdTotalDeath));
-                recovered.setText(String.valueOf(bdTotalRecovered));
+                affected.setText(numberFormat.format(bdTotalAffected));
+                death.setText(numberFormat.format(bdTotalDeath));
+                recovered.setText(numberFormat.format(bdTotalRecovered));
 
                 worldData.setEnabled(true);
 

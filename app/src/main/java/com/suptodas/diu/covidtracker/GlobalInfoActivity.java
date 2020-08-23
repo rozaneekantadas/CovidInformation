@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.hbb20.CountryCodePicker;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class GlobalInfoActivity extends AppCompatActivity {
     List<Countries> countries = new ArrayList<>();
     String countryCode;
     CountryCodePicker countryCodePicker;
+    NumberFormat numberFormat = NumberFormat.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +56,9 @@ public class GlobalInfoActivity extends AppCompatActivity {
                 todayBtn.setTextColor(getColor(R.color.white));
                 totalBtn.setTextColor(getColor(R.color.whitelight));
 
-                affected.setText(String.valueOf(bdTodayAffected));
-                death.setText(String.valueOf(bdTodayDeath));
-                recovered.setText(String.valueOf(bdTodayRecovered));
+                affected.setText(numberFormat.format(bdTodayAffected));
+                death.setText(numberFormat.format(bdTodayDeath));
+                recovered.setText(numberFormat.format(bdTodayRecovered));
             }
         });
 
@@ -66,9 +68,9 @@ public class GlobalInfoActivity extends AppCompatActivity {
                 todayBtn.setTextColor(getColor(R.color.whitelight));
                 totalBtn.setTextColor(getColor(R.color.white));
 
-                affected.setText(String.valueOf(bdTotalAffected));
-                death.setText(String.valueOf(bdTotalDeath));
-                recovered.setText(String.valueOf(bdTotalRecovered));
+                affected.setText(numberFormat.format(bdTotalAffected));
+                death.setText(numberFormat.format(bdTotalDeath));
+                recovered.setText(numberFormat.format(bdTotalRecovered));
             }
         });
 
@@ -90,9 +92,9 @@ public class GlobalInfoActivity extends AppCompatActivity {
             }
         }
 
-        affected.setText(String.valueOf(bdTotalAffected));
-        death.setText(String.valueOf(bdTotalDeath));
-        recovered.setText(String.valueOf(bdTotalRecovered));
+        affected.setText(numberFormat.format(bdTotalAffected));
+        death.setText(numberFormat.format(bdTotalDeath));
+        recovered.setText(numberFormat.format(bdTotalRecovered));
 
     }
 }
