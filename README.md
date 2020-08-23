@@ -17,6 +17,7 @@ This is an android apps. I learned how to retrieve data from server using RESTfu
 
 # Screen Shots
 
+## Old Version
 <img height='320' weight='240' src="page1.png"/>   <img height='320' weight='240' src="page2.png"/>
 
 
@@ -30,6 +31,14 @@ This is an android apps. I learned how to retrieve data from server using RESTfu
 
 
 <img height='320' weight='240' src="page9.png"/>   <img height='320' weight='240' src="page10.png"/>
+
+
+## New Version
+
+<img height='320' weight='240' src="new_pic1.png"/>   <img height='320' weight='240' src="new_pic2.png"/>
+
+
+<img height='320' weight='240' src="new_pic3.png"/>   <img height='320' weight='240' src="new_pic4.png"/>
 
 # Download Link
 
